@@ -7,6 +7,8 @@ function Navbar() {
   const [visible, setVisible] = useState(false);
   const {getCartCount} = useContext(ShopContext);
 
+  const {setShowSearch} = useContext(ShopContext);
+
   return (
     <div className='flex items-center justify-between py-5 font-medium'>
       
@@ -33,7 +35,7 @@ function Navbar() {
       </ul>
 
       <div className='flex items-center gap-6'>
-        <img src={assets.search} className='w-5 cursor-pointer' alt="search" />
+        <img onClick={(() => setShowSearch(true))} src={assets.search} className='w-5 cursor-pointer' alt="search" />
       
       
         <div className='group relative'>

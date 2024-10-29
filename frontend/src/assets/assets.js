@@ -68,6 +68,7 @@ import cart from './cart.png'
 import menu from './menu.png'
 import arrow from './arrow.png'
 import hero1 from './hero1.jpg'
+import close from './close.png'
 
 export const assets = {
     logo,
@@ -80,7 +81,8 @@ export const assets = {
     cart,
     menu,
     arrow,
-    hero1
+    hero1,
+    close
 }
 
 export const products = [

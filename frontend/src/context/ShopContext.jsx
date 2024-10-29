@@ -8,6 +8,8 @@ const ShopContextProvider = (props) => {
  
     const currency = '$';
     const delivery_fee = 10;
+    const [search, setSearch] = useState('');
+    const [showSearch, setShowSearch] = useState(false);
     const [cartItems, setCartItems] = useState({})
 
     const addToCart = async (itemId, size) => {
@@ -51,7 +53,7 @@ const ShopContextProvider = (props) => {
     }
 
     const value = {
-        products, currency, delivery_fee, cartItems, addToCart, getCartCount
+        products, currency, delivery_fee, search, setSearch, showSearch, setShowSearch, cartItems, addToCart, getCartCount
     }
 
     return (
