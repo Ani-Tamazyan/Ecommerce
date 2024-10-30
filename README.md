@@ -42,6 +42,6 @@ This is a fully functional Ecommerce platform built with HTML, CSS, Tailwind CSS
 
 ## Screenshot
 
-![Home Page](./public/homepage.png)
-![Product Listing](./public/product_listing.png)
+![Home Page](./screenshot/homepage.png)
+![Product Listing](./screenshot/product_listing.png)
 
